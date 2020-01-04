@@ -4,6 +4,6 @@ author: Matthew Piercey <matthew@botinabox.ca>
 about: A simple repository to test https://rust.rs
 args:
   - yeet:
-      short: y
-      long: yeet
-      help: Y E E T
+      short: h
+      long: hello
+      help: Prints "Hello, World!" to the console
