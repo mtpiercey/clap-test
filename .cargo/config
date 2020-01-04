@@ -1,0 +1,12 @@
+[target.arm-unknown-linux-musleabihf]
+linker = "arm-linux-musleabihf-gcc"
+
+[net]  
+git-fetch-with-cli = true
+
+# This file makes sure that the proper
+# cross-compilation linker is used for ARMv6
+
+# Also, the git thing is a fix that worked for
+# me since without it I couldn't use GitHub
+# crates in my Rust projects
